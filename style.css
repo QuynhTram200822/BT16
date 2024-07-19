@@ -91,15 +91,16 @@ th {
 }
 
 .button-cls {
-  right: 850px;
+  right: 50%;
+  /* right: 850px; */
   /* top: 0; */
   bottom: 23px;
   position: absolute;
   cursor: pointer;
-  display: none; /* Ban đầu ẩn nút close */
+  display: none;
 }
 .input-field:not(:placeholder-shown) + .button-cls {
-  display: block; /* Hiển thị nút close khi input có giá trị */
+  display: block;
 }
 .search {
   position: relative;
